@@ -1,3 +1,17 @@
 @import "../fonts/fonts";
 
 @import "../helpers/mixin";
+
+@import "../components/classes";
+@import "../components/header";
+@import "../components/footer";
+
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    width: 858px;
+    margin: 0 auto;
+}

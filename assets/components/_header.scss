@@ -1,0 +1,12 @@
+.header{
+    &__content{
+        & ul{
+            display: flex;
+            justify-content: end;
+        }
+        & li{
+            @include font(20px,500,#000000);
+            margin-left: 33px;
+        }
+    }
+}
