@@ -54,6 +54,19 @@
   font-style: normal;
 }
 
+button {
+  border: none;
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
 .header__content ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,6 +83,41 @@
   font-size: 20px;
   color: #000000;
   margin-left: 33px;
+}
+
+.bio__content {
+  margin-top: 140px;
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bio__left {
+  width: 507px;
+}
+
+.bio__left h2 {
+  margin: 0;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: #21243D;
+}
+
+.bio__left p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243D;
 }
 
 ul li {

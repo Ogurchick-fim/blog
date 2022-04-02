@@ -1,0 +1,19 @@
+.bio{
+    &__content{
+        margin-top: 140px;
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left{
+        width: 507px;
+        & h2{
+            margin: 0;
+            @include font(44px,700,#21243D);
+        }
+        & p{
+            @include font(16px,400,#21243D);
+        }
+    }
+}

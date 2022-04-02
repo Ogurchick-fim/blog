@@ -1,0 +1,8 @@
+button{
+    border: none;
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+    @include font(20px,500,#fff);
+}
