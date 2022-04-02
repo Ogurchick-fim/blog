@@ -1,0 +1,35 @@
+.work{
+    background: #EDF7FA;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & h3{
+            @include font(22px,400,#21243D);
+        }
+        & a{
+            text-decoration:none;
+            @include font(16px,400,#00A8CC);
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block{
+        width: 378px;
+        height: 295px;
+        background: #fff;
+        padding: 7px 0 13px 14px;
+        & h2{
+            @include font(26px,700,#21243D);
+        }
+        & h4{
+            @include font(18px,400,#21243D);
+        }
+        & p{
+            width: 368px;
+            @include font(16px,400,#21243D);
+        }
+    }
+}

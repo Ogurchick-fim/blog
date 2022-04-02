@@ -120,6 +120,80 @@ button {
   color: #21243D;
 }
 
+.work {
+  background: #EDF7FA;
+}
+
+.work__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work__top h3 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243D;
+}
+
+.work__top a {
+  text-decoration: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00A8CC;
+}
+
+.work__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work__block {
+  width: 378px;
+  height: 295px;
+  background: #fff;
+  padding: 7px 0 13px 14px;
+}
+
+.work__block h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #21243D;
+}
+
+.work__block h4 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243D;
+}
+
+.work__block p {
+  width: 368px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243D;
+}
+
 ul li {
   list-style: none;
 }
