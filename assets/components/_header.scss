@@ -5,8 +5,19 @@
             justify-content: end;
         }
         & li{
+            cursor: pointer;
             @include font(20px,500,#000000);
             margin-left: 33px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .header{
+        &__content{
+            & ul{
+                display: none;
+            }
         }
     }
 }
