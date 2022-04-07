@@ -86,9 +86,18 @@ button {
   margin-left: 33px;
 }
 
+.header__burgers {
+  width: 30px;
+  height: 18px;
+  background: url(../img/menu.svg);
+}
+
 @media (max-width: 768px) {
   .header__content ul {
     display: none;
+  }
+  .header__burgers {
+    display: block;
   }
 }
 
